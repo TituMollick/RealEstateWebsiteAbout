@@ -1,0 +1,399 @@
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Real-Estate Website 
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Start Top Header Part CSS */
+#header{
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+}
+#header .header_container{
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #9e9e9e;
+  /* box-shadow: 0px 2px 20px #d3d1d1; */
+}
+#header .header_logo{
+  padding: 20px 0 0 100px;
+}
+#header .header_menu{
+  display: flex; 
+}
+#header .header_menu ul{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-left: 295px;
+}
+#header .header_menu ul li{
+  list-style: none;
+  margin: 0 8px;
+}
+#header .header_menu ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #757574;
+}
+#header .header_menu ul li a span{
+  font-size: 13px;
+  color: #1396E2;
+  margin: 0 4px;
+}
+#header .header_menu ul li:hover a{
+  text-decoration: 2px underline #1396E2;
+  color: #30302A;
+  font-weight: 500;
+}
+/* Start Sub Header Part CSS */
+#header .header_about{
+  width: 90%;
+  height: 90px;
+  margin: 0 auto;
+  background: #F9F9F9;
+  border-bottom: 1px solid #d1d1d1;
+}
+#header .header_about .about_title{
+  display: flex;
+  position: relative;
+}
+#header .header_about .about_title p{
+  font-size: 15px;
+  color: #757574;
+  padding-top: 5px;
+}
+#header .header_about .about_title img{
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+#header .header_about h3{
+  font-size: 26px;
+  color: #757574;
+  padding-top: 25px;
+}
+/* Start Header Hero Part CSS */
+#header .hero_part{
+  width: 90%;
+  height: 520px;
+  margin: 0 auto;
+  background-image: url(../img/hero_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+#header .hero_part .hero_head h2{
+  padding: 30px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+  color: #757574;
+}
+#header .hero_part .hero_head p{
+  padding: 0 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #757574;
+}
+#header .hero_part .hero_head hr{
+  width: 3%;
+  height: 2px;
+  background: #1396E2;
+  margin: 15px 0 20px 590px;
+}
+#header .hero_part .hero_head .hero_img img{
+  margin: 0px 0px 0px 535px;
+}
+#header .hero_part .hero_head .hero_img h5{
+  text-align: center;
+  padding: px 0;
+  font-size: 25px;
+  color: #063752;
+}
+#header .hero_part .hero_head .hero_img p{
+  text-align: center;
+  font-size: 16px;
+  color: #063752;
+}
+#header .hero_part .hero_line img{
+  margin: 50px 0 0 470px;
+}
+/* End Header Part CSS */
+/* Start Our Team Part CSS */
+#team{
+  width: 90%;
+  height: 550px;
+  margin: 0 auto;
+}
+#team h2{
+  text-align: center;
+  font-size: 30px;
+  color: #9C9C9D;
+  padding: 50px 0;
+}
+#team .team_btn{
+  padding-left: 515px;
+  margin-bottom: -65px;
+}
+#team .team_btn button{
+  padding: 5px 10px;
+  background: #1396E2;
+  border: none;
+  border-radius: 2px;
+}
+#team .team_btn button a{
+  text-decoration: none;
+  color: #FFF7F7;
+  font-size: 15px;
+  font-weight: 600;
+}
+#team .team_part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#team .team_part .team_img{
+  display: flex;
+  width: 35%;
+  height: 180px;
+  margin: 0 15px;
+}
+#team .team_part .team_img_2{
+  display: flex;
+  width: 35%;
+  height: 180px;
+  margin: 0 15px 0 0;
+}
+#team .team_part .team_img img,
+#team .team_part .team_img_2 img{
+  height: 130px;
+  width: 130px;
+}
+#team .team_part .team_img .img_inform,
+#team .team_part .team_img_2 .img_inform{
+  padding-left: 20px;
+}
+#team .team_part .team_img .img_inform h4,
+#team .team_part .team_img_2 .img_inform h4{
+  color: #2B3151;
+  font-size: 26px;
+  font-weight: 700;
+}
+#team .team_part .team_img .img_inform p,
+#team .team_part .team_img_2 .img_inform p{
+  color: #2B3151;
+  font-size: 16px;
+  line-height: 1.8;
+}
+#team .team_part .team_img .img_inform hr,
+#team .team_part .team_img_2 .img_inform hr{
+  width: 100%;
+}
+#team .team_part .team_img .img_inform .inform,
+#team .team_part .team_img_2 .img_inform .inform{
+  font-weight: 700;
+}
+#team .team_part .team_img .img_inform p span{
+  font-weight: 400;
+  float: right;
+  margin-left: 40px;
+}
+#team .team_part .team_img_2 .img_inform p span{
+  font-weight: 400;
+  float: right;
+  margin-left: 25px;
+}
+#team .team_part .team_img .img_inform p .active,
+#team .team_part .team_img_2 .img_inform p .active{
+  color: #1396E2;
+}
+/* End Our Team Part CSS */
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Real-Estate Website 
+*/
+/* Start Fun Facts Part CSS */
+#facts{
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+#facts h2{
+  text-align: center;
+  font-size: 35px;
+  color: #595070;
+  padding: 80px 0 50px 0;
+}
+#facts .facts_part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#facts .facts_part .facts_con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#facts .facts_part .facts_con .line_1{
+  width: 80px;
+  margin-top: 23px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#facts .facts_part .facts_con .line_2{
+  width: 150px;
+  margin-top: 23px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#facts .facts_part .facts_con .facts_title{
+  padding: 0 10px;
+}
+#facts .facts_part .facts_con .facts_title h3{
+  font-size: 35px;
+  color: #0B92E1;
+  padding: 10px 0;
+}
+#facts .facts_part .facts_con .facts_title p{
+  font-size: 16px;
+  color: #09355F;
+}
+/* End Fun Facts Part CSS */
+/* Start Footer Part CSS */
+#footer{
+  width: 100%;
+  height: 390px;
+  margin: 0 auto;
+  background: #F3F3F3;
+}
+#footer .footer_con{
+  width: 90%;
+  height: 330px;
+  margin: 0 auto;
+  display: flex;
+}
+#footer .footer_con .footer_head{
+  width: 24%;
+  height: 330px;
+  margin: 0 15px;
+}
+#footer .footer_con .footer_head h4{
+  padding: 30px 0;
+  font-size: 20px;
+  color: #463859;
+}
+#footer .footer_con .footer_head p{
+  padding: 10px 0;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #A8A9AC;
+}
+#footer .footer_con .footer_head hr{
+  border: 1px solid #E2E2E2;
+  margin: 10px 0;
+}
+#footer .footer_con .footer_head .footer_button{
+  padding-top: 10px;
+}
+#footer .footer_con .footer_head .footer_button button{
+  border: none;
+  background: none;
+}
+#footer .footer_con .footer_head .footer_button button a{
+  text-decoration: none;
+  font-size: 17px;
+  color: #494949;
+}
+#footer .footer_con .footer_head .footer_button button a span{
+  color: #1396E2; padding-left: 5px;
+}
+#footer .footer_con .footer_head .footer_img{
+  display: flex; 
+  margin: 15px 0;
+}
+#footer .footer_con .footer_head .footer_img img{
+  height: 70px; 
+  width: 85px;
+}
+#footer .footer_con .footer_head .footer_img .footer_title{
+  padding-left: 10px;
+}
+#footer .footer_con .footer_head .footer_img .footer_title h5{
+  font-size: 16px;
+  color: #083857;
+}
+#footer .footer_con .footer_head .footer_img .footer_title p{
+  font-size: 15px;
+  color: #5A5958;
+  line-height: 0;
+}
+#footer .footer_con .footer_head .footer_img .footer_title .footer_btn{
+  padding-top: 6px;
+}
+#footer .footer_con .footer_head .footer_img .footer_title .footer_btn button{
+  padding: 6px 12px;
+  background: #1396E2;
+  border: none;
+  border-radius: 2px;
+}
+#footer .footer_con .footer_head .footer_img .footer_title .footer_btn button a{
+  text-decoration: none;
+  color: #FFF7F7;
+  font-size: 15px;
+  font-weight: 600;
+}
+#footer .footer_con .footer_head h6{
+  padding-top: 10px;
+  font-size: 17px;
+  color: #585559;
+}
+#footer .footer_con .footer_head p{
+  font-size: 16px;
+  color: #585559;
+}
+#footer .footer_con .footer_head p span{
+  font-size: 16px;
+  color: #1396E2;
+}
+#footer .footer_con .footer_head .text{
+  font-size: 16px;
+  line-height: 2;
+}
+/* Start CopyRight Area CSS */
+#footer .copyright{
+  height: 60px;
+  background: #073855;
+  display: flex;
+}
+#footer .copyright p{
+  padding: 22px 0;
+  margin: 0 75px;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 16px;
+}
+#footer .copyright a{
+  padding: 22px 0 0 690px;
+  margin: 0 75px;
+  color: #FFF;
+  font-size: 17px;
+  text-decoration: none;
+}
+/* End Footer Part CSS */
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Real-Estate Website 
+*/
